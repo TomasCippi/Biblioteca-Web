@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/socios.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <meta name="description" content="Bienvenido a la Biblioteca de Villa Pueyrredón, un espacio dedicado a fomentar el amor por la lectura y la cultura. Descubre nuestra amplia colección de libros, participa en talleres y eventos, y disfruta de un ambiente acogedor para todas las edades. ¡Ven y forma parte de nuestra comunidad literaria!">
+    <link rel="shortcut icon" href="../assets/icons/icono.webp" type="image/x-icon">
+    <title>Asociación Vecinal de Fomento y Biblioteca Popular Pueyrredón Sud</title>
+</head>
+<body>
+    <main>
+        <div class="menu_container" id="menu_container" onclick="menutoggle()">
+            <img src="../assets/icons/x.svg" alt="Boton x para el menu">
+            <div class="nav_links_container">
+                <button>
+                    <a href="../index.html">INICIO</a>
+                </button>
+                <button>
+                    <a href="/pages/talleres.html">TALLERES</a>
+                </button>
+                <button id="hover_link">
+                    <a href="/pages/socios.html">SOCIOS</a>
+                </button>
+            </div>
+        </div>
+        <nav class="nav_container">
+            <div class="nav_img_container">
+                <img loading="lazy" src="../assets/icons/icono.webp" alt="Imagen del logo de la Biblioteca">
+            </div>
+            <div class="nav_links_container">
+                <img src="../assets/icons/menu.svg" class="menu_button_img" alt="Boton de menu" onclick="menutoggle()">
+                <button>
+                    <a href="../index.html">INICIO</a>
+                </button>
+                <button>
+                    <a href="/pages/talleres.html">TALLERES</a>
+                </button>
+                <button id="hover_link">
+                    <a href="/pages/socios.html">SOCIOS</a>
+                </button>
+            </div>
+        </nav>
+        <header class="header_container">
+            <h1>SOCIOS</h1>
+        </header>
+        <section class="about_socios_container">
+            <div data-aos="fade-right" data-aos-delay="50" class="about_socios_text_container">
+                <h2>¿Qué es hacerse socio/a?</h2>
+                <p>Hacerse socio/a de la biblioteca implica pagar una cuota que ayuda a mantener y mejorar sus servicios. A cambio, recibís beneficios exclusivos y te convertís en parte de la comunidad que apoya este espacio cultural. Es una manera sencilla de colaborar y acercarte más a la biblioteca.</p>
+                <div class="button_socio_about_container">
+                    <button class="button_1_style" onclick="window.location.href='#hacete';">HACETE SOCIO</button>
+                </div>
+            </div>
+            <div data-aos="fade-left" data-aos-delay="400" class="about_socios_img_container">
+                <img loading="lazy" src="../assets/imgs/socios_1.webp" alt="Imagen de la biblioteca">
+            </div>
+        </section>
+        <section class="beneficios_socios_container">
+            <div data-aos="fade-right" data-aos-delay="50" class="beneficios_socios_img_container">
+                <img loading="lazy" src="../assets/imgs/socios_2.webp" alt="Imagen de la biblioteca">
+            </div>
+            <div data-aos="fade-right" data-aos-delay="400" class="beneficios_socios_text_container">
+                <h2>¿Qué beneficios trae?</h2>
+                <p>Hacerse socio/a de la biblioteca te da beneficios como descuentos en eventos, acceso a talleres y prioridad en el préstamo de libros y recursos. Además, al pagar tu cuota, ayudás a sostener este espacio, mientras disfrutás de todas las actividades y ventajas exclusivas que la biblioteca ofrece.</p>
+            </div>
+        </section>
+        <section class="socio_container" id="hacete">
+            <h2 data-aos="zoom-in">HACETE SOCIO Y MIRÁ TODOS LOS BENEFICIOS</h2>
+            <div data-aos="flip-down" data-aos-duration="500" class="buttons_socio_container">
+                <button class="button_1_style" onclick="window.open('https://wa.me/5491145724450', '_blank')">HACETE SOCIO</button>
+            </div>
+        </section>
+        <footer class="footer_container">
+            <div class="footer_redes_container">
+                <a href="https://www.instagram.com/bibliotecapueyrredonsud?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==" target="_blank" aria-label="siguenos en instagram"><img loading="lazy" src="../assets/icons/redes/instagram.svg" alt="Icono de red social para la biblioteca"></a>
+                <a href="https://wa.me/5491145724450" target="_blank"><img loading="lazy" src="../assets/icons/redes/whatsapp.svg" alt="Icono de red social para la biblioteca"></a>
+                <a href="https://www.youtube.com/@BibliotecaPSud" target="_blank"><img loading="lazy" src="../assets/icons/redes/youtube.svg" alt="Icono de red social para la biblioteca"></a>
+            </div>
+            <div class="footer_copyright_container">
+                <p>Copyright © 2024 · Diseño TC</p>
+            </div>
+        </footer>
+    </main>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="../js/socios.js"></script>
+</body>
+</html>
